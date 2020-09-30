@@ -3,10 +3,9 @@ body {
 }
  p { 
   color: rgb(255,255,255);
-  font-family: 'THSarabunNewRegular'
-  font-size:24px;
-}
-  h1 {
+  font-family: 'THSarabunNewRegular';
+  font-size: 24px }
+h1 {
     color: rgb(246, 0, 0);
     font-family: 'BeonRegular';
     font-weight: normal;
@@ -14,9 +13,8 @@ body {
     font-size: 100px;
     text-align: center;
     }
-}
-h2 {
-    color: rgb(0, 0, 0);
+  h2 {
+    color: rgb(255, 255, 255);
     font-family: 'BeonRegular';
     font-weight: normal;
     font-style: normal;
@@ -65,7 +63,8 @@ h2 {
   
   /* Style the image inside the centered container, if needed */
   .centered img {
-    width: 400px;
+    width: auto;
+    height: auto;
     border-radius: 0%;
   }
 #thebuttons {
@@ -85,6 +84,23 @@ button:hover{
 button div {
   border: solid 10px;
 }
+#thebutton {
+	display: flex;
+}
+button {
+  padding: 20px;
+  border: solid 5px; 
+  border-radius: 0px;
+  background-color: rgb(255, 253, 253);
+  margin: 80px;
+  align-items: right;
+}
+button:hover{
+	background-color: rgb(81, 17, 17);
+}
+button div {
+  border: solid 10px;
+}
 h3 {
     color: rgb(0, 0, 0);
     font-family: 'BeonRegular';
@@ -97,11 +113,14 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-}.wrapper {
+    width: 60%;
+    height: 60%;
+}
+.wrapper {
     text-align: center;
 }
 img {
-  width: 400px
+  max-width:100%;
+  height:auto;
 }
 
