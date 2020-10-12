@@ -1,0 +1,62 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button {
+position: absolute; justify-content: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+body {
+/*  background: rgb(0,0,0);*/
+  background-image: url(https://art.pixilart.com/0928a2aa14e88da.gif);
+  overflow-x: hidden;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button1{
+width: 300px;
+height: 40px;
+
+}
+#button2{
+width: 300px;
+height: 40px;
+
+}
+label {
+  color: black;
+}
+form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid; color: black;
+  background-color: white;
+  padding: 10px;
+}
+p {
+  color: black;
+  font-style: bold;
+ justify-content: center;
+}
+ol {
+  color: black;
+  font-style: bold;
+  text-align: center;
+}
