@@ -1,0 +1,97 @@
+body {
+  background-color: black;
+  margin: 5%;
+}
+h2{
+  text-align: left;
+  
+}
+
+img {
+  display: block;
+  width: 170px;
+  height: 170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1{
+  margin-top: 29%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 20;
+  font-weight: lighter;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 5px;
+  grid-template-rows: 170px;
+  margin: auto;
+  padding: 2px;
+  
+}
+.grid .item {
+  background-color: rgb(42,48,48);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 5px;
+  grid-template-rows: 170px;
+  margin: auto;
+  padding: 5px;
+  
+}
+.grid2 .item {
+  background-color: rgb(42,48,48);
+}
+
+.grid .item {
+  background-color: rgb(42,48,48);
+}
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 5px;
+  grid-template-rows: 170px;
+  margin: auto;
+  padding: 5px;
+  
+}
+.grid3 .item {
+  background-color: rgb(42,48,48);
+  text-align: left;  
+}
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-column-gap: 5px;
+  grid-template-rows: 170px;
+  margin: auto;
+  padding: 5px;
+  
+}
+.grid3 .item {
+  background-color: rgb(42,48,48);
+}
+.grid4 {
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  grid-column-gap: 5px;
+  grid-template-rows: 170px;
+  margin: auto;
+  padding: 5px;
+  align-content: center;
+  justify-content: center;
+  
+}
+.grid4 .item {
+  background-color: rgb(42,48,48);
+}

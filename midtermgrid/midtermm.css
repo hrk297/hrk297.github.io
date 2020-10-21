@@ -1,0 +1,92 @@
+body {
+  padding-top: 50px;
+  background: black;
+  padding-bottom: 10px;
+}
+
+section {
+ align-items: center;
+ justify-content: center;
+ align-content: center;
+}
+
+.grid-1 {
+  display: grid;
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+/* items */
+
+.grid-1 div {
+  color: white;
+  font-size: 20px;
+  padding: 50px;
+  align-content: left;
+  }
+
+/* specific item styles */
+
+.item-1 {
+  background: rgb(42,48,48);
+}
+.item-2 {
+  background: rgb(42,48,48);
+}
+.item-3 {
+  background: rgb(42,48,48);
+}
+.item-4 {
+  background: rgb(42,48,48);
+}
+.item-5 {
+  background: rgb(42,48,48);
+}
+.item-6 {
+  background: rgb(42,48,48);
+}
+.item-7 {
+  background: rgb(42,48,48);
+}
+.item-8 {
+  background: rgb(42,48,48);
+}
+.item-9 {
+  background: rgb(42,48,48);
+}
+.item-10 {
+  background: rgb(42,48,48);
+}
+.item-11 {
+  background: rgb(42,48,48);
+}
+.item-12 {
+  background: rgb(42,48,48);
+}
+.item-13 {
+  background: rgb(42,48,48);
+}
+.item-14 {
+  background: rgb(42,48,48);
+}
+.item-15 {
+  background: rgb(42,48,48);
+}
+.item-16 {
+  background: rgb(42,48,48);
+}
+.item-17 {
+  background: rgb(42,48,48);
+}
+
+	text-align: center;
+
+}

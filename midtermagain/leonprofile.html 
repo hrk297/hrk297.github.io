@@ -1,0 +1,13 @@
+<html>
+  <head>
+          <link rel="stylesheet" href="profilecss.css">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>	
+  <div class="card">
+  <img src="leon.jpeg" alt="leon" style="width:100%">
+  <h1>Leon</h1>
+  <p class="title">Birthday:</p>
+  <p>about leon</p>
+  <p><button>follow</button></p>
+</div>
+</html>
