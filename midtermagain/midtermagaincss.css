@@ -111,6 +111,7 @@ footer {
     background-color: rgb(22,28,28);
     color: rgb(42,66,66);
     line-height: 3px;
+    min-height: 3px;
    } 
 
 
