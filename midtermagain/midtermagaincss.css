@@ -111,7 +111,6 @@ footer {
     background-color: rgb(22,28,28);
     color: rgb(42,66,66);
     line-height: 3px;
-    display: inline-block;
    } 
 
 
@@ -125,16 +124,16 @@ footer {
 
 .image5{
 
-  width:40px;
-  height:25px; 
+  width:80px;
+  height:45px; 
   display: inline-block;
   margin-left: 360px;
 
 }
 .image6{
 
-  width:40px;
-  height:25px; 
+  width:80px;
+  height:45px; 
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
@@ -142,8 +141,8 @@ footer {
 }
 .image12{
 
-  width:40px;
-  height:25px; 
+  width:80px;
+  height:45px; 
   display: inline-block;
   justify-content: right;
 
