@@ -112,6 +112,7 @@ footer {
     color: rgb(42,66,66);
     line-height: 3px;
     min-height: 3px;
+    justify-content: center;
    } 
 
 
