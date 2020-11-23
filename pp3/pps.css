@@ -1,0 +1,33 @@
+body {
+  background: #000;
+  margin: 0;
+  max-width: 100%;
+  width: 100%;
+  padding: 0;
+}
+
+.section {
+  display: block;
+  position: relative
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+  align-content: center;
+  background: #000;
+}
+
+.circle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 0;
+  left: 0;
+  background: #fff;
+  border-radius: 80%;
+  backface-visibility: hidden;
+  pointer-events: none;
+  opacity: 1;
+  box-shadow: 0 0 50px #fff
+}

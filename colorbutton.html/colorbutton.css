@@ -1,0 +1,41 @@
+h1 {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  gap: 4rem;
+  grid-auto-flow: column;
+  margin: 0 0 4rem 0;
+  padding: 10px;
+}
+
+.grid > div {
+  height: 150px;
+  background: red;
+  width: 150px;
+}
+
+body {
+  margin: 15px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.flex-container {
+  display: flex;
+ justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  width: 70px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  padding: 15px;
+}
+
+button {
+
+}
