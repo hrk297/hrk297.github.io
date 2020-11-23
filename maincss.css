@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(230,113,67);
+  background-color: rgb(245, 144, 56);
   color: (189,250,180);
   font-size: large;
   text-align: center;
@@ -38,7 +38,7 @@ p { /*header*/
 p.p2 {
   font-family: arial;
   font-size: 20px;
-  color: white;
+  color: rgb(189,250,180);
   text-align: center;
 }
 footer {
