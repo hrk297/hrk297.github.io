@@ -24,7 +24,7 @@ display: flex;
   position: fixed; 
   top: 0; 
   left: 0; 
-	
+  
   /* Preserve aspet ratio */
   width: 1450px;
   height: 800px;
@@ -57,18 +57,22 @@ display: flex;
   background-color: black;
 }
 
-body.class1 {
-background-image: url(loas.jpg);
+body.asset4 {
+position: absolute;
+top: -100; 
+right: 400; 
+z-index: -3
+
 }
 
-body.class2 {
-background-image: url(siverek3.png);
+body.asset3 {
+background-image: url(elon.jpg);
 }
 
-body.class3 {
+body.asset2 {
 background-image: url(russiaithink.png);
 }
 
-body.class4 {
+body.asset1 {
 background-image: url(pretoria.jpg);
 }
