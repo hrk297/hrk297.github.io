@@ -1,0 +1,98 @@
+body {
+background-color: white;
+vertical-align: center;
+margin-right: auto;
+margin-left: auto;
+align-items: center;
+}
+
+button {
+ margin-left: auto;
+ margin-right: auto;;
+ border:none;
+ outline: none;
+ background-color: none;
+ justify-content: center;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.button {
+position: absolute; justify-content: center;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+				.nav p {
+					margin-top: 20vh;
+					text-align: center;
+				}
+			}
+
+			.nav {
+				display: flex;
+				flex-flow: row wrap;
+				text-align: center;
+				justify-content: center;
+			}
+
+		
+			.center {
+				display: flex;
+				align-items: : center;
+				justify-content: center;
+			}
+
+			img {
+				max-width: 10%;
+				max-height: auto;
+			}
+
+
+
+			a {
+				font-family: futura-pt, sans-serif;
+				font-weight: 400;
+				font-style: normal;
+				font-size: 18px;
+				text-decoration: none;
+				padding-top: 25vh;
+				color: black;
+			}
+.card {
+        width: 250%;
+        height: 250%;
+        position: absolute;
+        display: inline-block;
+    
+    }
+    .card .img-top {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 99;
+    }
+    .card:hover .img-top {
+        display: inline;
+    }
+
+
+    .img{
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    display:block;
+    height:200px;
+}
+.bg{
+    background-image:url(http://placehold.it/300x200/white/black);
+}
+.new-bg{
+    background-image:url(http://placehold.it/300x200/black/white);
+}
